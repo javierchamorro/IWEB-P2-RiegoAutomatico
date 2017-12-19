@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B473C481F814C450055BF46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B473C471F814C450055BF46 /* AppDelegate.swift */; };
+		3B473C4A1F814C450055BF46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B473C491F814C450055BF46 /* ViewController.swift */; };
+		3B473C4D1F814C450055BF46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B473C4B1F814C450055BF46 /* Main.storyboard */; };
+		3B473C4F1F814C450055BF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B473C4E1F814C450055BF46 /* Assets.xcassets */; };
+		3B473C521F814C450055BF46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B473C501F814C450055BF46 /* LaunchScreen.storyboard */; };
+		3B473C5D1F814C460055BF46 /* Riego_AutomaticoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B473C5C1F814C460055BF46 /* Riego_AutomaticoTests.swift */; };
+		3B473C681F814C460055BF46 /* Riego_AutomaticoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B473C671F814C460055BF46 /* Riego_AutomaticoUITests.swift */; };
+		3B473C761F814CCD0055BF46 /* ParametricFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B473C751F814CCD0055BF46 /* ParametricFunction.swift */; };
+		3B473C781F8150470055BF46 /* TankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B473C771F8150470055BF46 /* TankModel.swift */; };
+		3B473C7A1F8152230055BF46 /* TrajectoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B473C791F8152230055BF46 /* TrajectoryModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B473C591F814C460055BF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B473C3C1F814C450055BF46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B473C431F814C450055BF46;
+			remoteInfo = "Riego Automatico";
+		};
+		3B473C641F814C460055BF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B473C3C1F814C450055BF46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B473C431F814C450055BF46;
+			remoteInfo = "Riego Automatico";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B473C441F814C450055BF46 /* Riego Automatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riego Automatico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B473C471F814C450055BF46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B473C491F814C450055BF46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B473C4C1F814C450055BF46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B473C4E1F814C450055BF46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B473C511F814C450055BF46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B473C531F814C450055BF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B473C581F814C460055BF46 /* Riego AutomaticoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Riego AutomaticoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B473C5C1F814C460055BF46 /* Riego_AutomaticoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riego_AutomaticoTests.swift; sourceTree = "<group>"; };
+		3B473C5E1F814C460055BF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B473C631F814C460055BF46 /* Riego AutomaticoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Riego AutomaticoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B473C671F814C460055BF46 /* Riego_AutomaticoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riego_AutomaticoUITests.swift; sourceTree = "<group>"; };
+		3B473C691F814C460055BF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B473C751F814CCD0055BF46 /* ParametricFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametricFunction.swift; sourceTree = "<group>"; };
+		3B473C771F8150470055BF46 /* TankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankModel.swift; sourceTree = "<group>"; };
+		3B473C791F8152230055BF46 /* TrajectoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrajectoryModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B473C411F814C450055BF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B473C551F814C460055BF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B473C601F814C460055BF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B473C3B1F814C450055BF46 = {
+			isa = PBXGroup;
+			children = (
+				3B473C461F814C450055BF46 /* Riego Automatico */,
+				3B473C5B1F814C460055BF46 /* Riego AutomaticoTests */,
+				3B473C661F814C460055BF46 /* Riego AutomaticoUITests */,
+				3B473C451F814C450055BF46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B473C451F814C450055BF46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B473C441F814C450055BF46 /* Riego Automatico.app */,
+				3B473C581F814C460055BF46 /* Riego AutomaticoTests.xctest */,
+				3B473C631F814C460055BF46 /* Riego AutomaticoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B473C461F814C450055BF46 /* Riego Automatico */ = {
+			isa = PBXGroup;
+			children = (
+				3B473C471F814C450055BF46 /* AppDelegate.swift */,
+				3B473C491F814C450055BF46 /* ViewController.swift */,
+				3B473C4B1F814C450055BF46 /* Main.storyboard */,
+				3B473C4E1F814C450055BF46 /* Assets.xcassets */,
+				3B473C501F814C450055BF46 /* LaunchScreen.storyboard */,
+				3B473C531F814C450055BF46 /* Info.plist */,
+				3B473C751F814CCD0055BF46 /* ParametricFunction.swift */,
+				3B473C771F8150470055BF46 /* TankModel.swift */,
+				3B473C791F8152230055BF46 /* TrajectoryModel.swift */,
+			);
+			path = "Riego Automatico";
+			sourceTree = "<group>";
+		};
+		3B473C5B1F814C460055BF46 /* Riego AutomaticoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B473C5C1F814C460055BF46 /* Riego_AutomaticoTests.swift */,
+				3B473C5E1F814C460055BF46 /* Info.plist */,
+			);
+			path = "Riego AutomaticoTests";
+			sourceTree = "<group>";
+		};
+		3B473C661F814C460055BF46 /* Riego AutomaticoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B473C671F814C460055BF46 /* Riego_AutomaticoUITests.swift */,
+				3B473C691F814C460055BF46 /* Info.plist */,
+			);
+			path = "Riego AutomaticoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B473C431F814C450055BF46 /* Riego Automatico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B473C6C1F814C460055BF46 /* Build configuration list for PBXNativeTarget "Riego Automatico" */;
+			buildPhases = (
+				3B473C401F814C450055BF46 /* Sources */,
+				3B473C411F814C450055BF46 /* Frameworks */,
+				3B473C421F814C450055BF46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Riego Automatico";
+			productName = "Riego Automatico";
+			productReference = 3B473C441F814C450055BF46 /* Riego Automatico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B473C571F814C460055BF46 /* Riego AutomaticoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B473C6F1F814C460055BF46 /* Build configuration list for PBXNativeTarget "Riego AutomaticoTests" */;
+			buildPhases = (
+				3B473C541F814C460055BF46 /* Sources */,
+				3B473C551F814C460055BF46 /* Frameworks */,
+				3B473C561F814C460055BF46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B473C5A1F814C460055BF46 /* PBXTargetDependency */,
+			);
+			name = "Riego AutomaticoTests";
+			productName = "Riego AutomaticoTests";
+			productReference = 3B473C581F814C460055BF46 /* Riego AutomaticoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B473C621F814C460055BF46 /* Riego AutomaticoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B473C721F814C460055BF46 /* Build configuration list for PBXNativeTarget "Riego AutomaticoUITests" */;
+			buildPhases = (
+				3B473C5F1F814C460055BF46 /* Sources */,
+				3B473C601F814C460055BF46 /* Frameworks */,
+				3B473C611F814C460055BF46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B473C651F814C460055BF46 /* PBXTargetDependency */,
+			);
+			name = "Riego AutomaticoUITests";
+			productName = "Riego AutomaticoUITests";
+			productReference = 3B473C631F814C460055BF46 /* Riego AutomaticoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B473C3C1F814C450055BF46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = UPM;
+				TargetAttributes = {
+					3B473C431F814C450055BF46 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3B473C571F814C460055BF46 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B473C431F814C450055BF46;
+					};
+					3B473C621F814C460055BF46 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B473C431F814C450055BF46;
+					};
+				};
+			};
+			buildConfigurationList = 3B473C3F1F814C450055BF46 /* Build configuration list for PBXProject "Riego Automatico" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B473C3B1F814C450055BF46;
+			productRefGroup = 3B473C451F814C450055BF46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B473C431F814C450055BF46 /* Riego Automatico */,
+				3B473C571F814C460055BF46 /* Riego AutomaticoTests */,
+				3B473C621F814C460055BF46 /* Riego AutomaticoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B473C421F814C450055BF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B473C521F814C450055BF46 /* LaunchScreen.storyboard in Resources */,
+				3B473C4F1F814C450055BF46 /* Assets.xcassets in Resources */,
+				3B473C4D1F814C450055BF46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B473C561F814C460055BF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B473C611F814C460055BF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B473C401F814C450055BF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B473C7A1F8152230055BF46 /* TrajectoryModel.swift in Sources */,
+				3B473C4A1F814C450055BF46 /* ViewController.swift in Sources */,
+				3B473C781F8150470055BF46 /* TankModel.swift in Sources */,
+				3B473C761F814CCD0055BF46 /* ParametricFunction.swift in Sources */,
+				3B473C481F814C450055BF46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B473C541F814C460055BF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B473C5D1F814C460055BF46 /* Riego_AutomaticoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B473C5F1F814C460055BF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B473C681F814C460055BF46 /* Riego_AutomaticoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B473C5A1F814C460055BF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B473C431F814C450055BF46 /* Riego Automatico */;
+			targetProxy = 3B473C591F814C460055BF46 /* PBXContainerItemProxy */;
+		};
+		3B473C651F814C460055BF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B473C431F814C450055BF46 /* Riego Automatico */;
+			targetProxy = 3B473C641F814C460055BF46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B473C4B1F814C450055BF46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B473C4C1F814C450055BF46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B473C501F814C450055BF46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B473C511F814C450055BF46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B473C6A1F814C460055BF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B473C6B1F814C460055BF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B473C6D1F814C460055BF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Riego Automatico/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Riego-Automatico";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B473C6E1F814C460055BF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Riego Automatico/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Riego-Automatico";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B473C701F814C460055BF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Riego AutomaticoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Riego-AutomaticoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riego Automatico.app/Riego Automatico";
+			};
+			name = Debug;
+		};
+		3B473C711F814C460055BF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Riego AutomaticoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Riego-AutomaticoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riego Automatico.app/Riego Automatico";
+			};
+			name = Release;
+		};
+		3B473C731F814C460055BF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Riego AutomaticoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Riego-AutomaticoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Riego Automatico";
+			};
+			name = Debug;
+		};
+		3B473C741F814C460055BF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Riego AutomaticoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Riego-AutomaticoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Riego Automatico";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B473C3F1F814C450055BF46 /* Build configuration list for PBXProject "Riego Automatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B473C6A1F814C460055BF46 /* Debug */,
+				3B473C6B1F814C460055BF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B473C6C1F814C460055BF46 /* Build configuration list for PBXNativeTarget "Riego Automatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B473C6D1F814C460055BF46 /* Debug */,
+				3B473C6E1F814C460055BF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B473C6F1F814C460055BF46 /* Build configuration list for PBXNativeTarget "Riego AutomaticoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B473C701F814C460055BF46 /* Debug */,
+				3B473C711F814C460055BF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B473C721F814C460055BF46 /* Build configuration list for PBXNativeTarget "Riego AutomaticoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B473C731F814C460055BF46 /* Debug */,
+				3B473C741F814C460055BF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B473C3C1F814C450055BF46 /* Project object */;
+}

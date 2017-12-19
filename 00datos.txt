@@ -1,0 +1,7 @@
+g710
+Javier Chamorro Abella
+Oscar Sanchez Rueda
+
+Mejora opcional:
+	Pinch en las views para modificar la escala
+	LongPress en los sliders para ponerlos al minimo
